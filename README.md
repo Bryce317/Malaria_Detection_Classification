@@ -1,1 +1,3 @@
 # Malaria_Detection_Classification
+
+This project implemented two models for malaria detection classification: one using TensorFlow's CNN layers and the other using custom CNN layers. The goal of the project was to accurately classify microscopic images of blood cells as either infected with malaria or uninfected. Both models achieved an accuracy of around 96 percent. The dataset consisted of labeled microscopic blood cell images obtained from TensorFlow Datasets. Data visualization provided insights into the dataset, while data augmentation improved model performance. Various callbacks were employed, including early stopping and model checkpointing. The trained models were saved for future use, enabling easy predictions on new blood cell images.
